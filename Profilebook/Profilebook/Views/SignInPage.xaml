@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Profilebook.SignInPage"
+             Title="User sign in">
+    <ContentPage.Content>
+        <StackLayout Margin="30,100,30,50" Spacing="200">
+            <Grid RowSpacing ="10">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                
+                <Entry x:Name="LoginEntry" 
+                   
+                   Grid.Row="0"
+                   VerticalOptions="Center"
+                   Placeholder="Login"/>
+
+                <Entry x:Name="PasswordEntry" 
+                   
+                       Grid.Row="1"
+                   Placeholder="Password"/>
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="SignInButton"
+                    Text="Sign in"
+                    FontSize="16"
+                        
+                        Grid.Row="0"
+                    
+                    CornerRadius="4"
+                    BackgroundColor="Orange"
+                    HeightRequest="60"/>
+
+                <Label x:Name="SignUpLink"
+                       Text="Sign up" 
+                       FontSize="16"
+                       TextColor="Black"
+                       
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       
+                       Grid.Row="1" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ClickCommand}"/>
+                        
+                    </Label.GestureRecognizers>
+                    </Label>
+            </Grid>
+            
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

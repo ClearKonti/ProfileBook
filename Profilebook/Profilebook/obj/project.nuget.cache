@@ -1,14 +1,46 @@
 {
   "version": 2,
-  "dgSpecHash": "Vn8L6NpryEjISkQgi2q0YVXbc3tigErb51hig2p0Ub1NRtPm4SAwFYzVgn0n4bqPJWdD+aMDcIXbVGpRHUTKug==",
+  "dgSpecHash": "8mUHYxZZOsAoTpRF5pBjrxGnR4aG8p66agnJu9kNGxlJPpTEi344a3RUxs/Wg59B4vvdj4DOKzwoZhUK3Rtafw==",
   "success": true,
   "projectFilePath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\6.2.4\\acr.userdialogs.6.2.4.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\plugin.userdialogs\\1.0.0\\plugin.userdialogs.1.0.0.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\splat\\1.6.2\\splat.1.6.2.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Acr.UserDialogs 6.2.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Acr.UserDialogs",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Splat 1.6.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Splat",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

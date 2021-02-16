@@ -11,4 +11,5 @@ C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\XamlC.stamp
 C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.dll
 C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\ref\Profilebook.dll
 C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.pdb
-C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\SignInPage.xaml.g.cs
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs
