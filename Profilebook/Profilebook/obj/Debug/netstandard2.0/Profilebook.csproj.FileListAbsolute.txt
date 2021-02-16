@@ -1,0 +1,14 @@
+C:\ProfileBook\Profilebook\Profilebook\bin\Debug\netstandard2.0\Profilebook.deps.json
+C:\ProfileBook\Profilebook\Profilebook\bin\Debug\netstandard2.0\Profilebook.dll
+C:\ProfileBook\Profilebook\Profilebook\bin\Debug\netstandard2.0\ref\Profilebook.dll
+C:\ProfileBook\Profilebook\Profilebook\bin\Debug\netstandard2.0\Profilebook.pdb
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.csprojAssemblyReference.cache
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.AssemblyInfoInputs.cache
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.AssemblyInfo.cs
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.csproj.CoreCompileInputs.cache
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\XamlC.stamp
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.dll
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\ref\Profilebook.dll
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.pdb
+C:\ProfileBook\Profilebook\Profilebook\obj\Debug\netstandard2.0\SignInPage.xaml.g.cs
