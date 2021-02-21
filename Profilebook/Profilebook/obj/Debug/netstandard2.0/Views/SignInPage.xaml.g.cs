@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Profilebook.Views.SignInPage.xaml", "Views/SignInPage.xaml", typeof(global::Profilebook.SignInPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Profilebook.Views.SignInPage.xaml", "Views/SignInPage.xaml", typeof(global::Profilebook.Views.SignInPage))]
 
-namespace Profilebook {
+namespace Profilebook.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SignInPage.xaml")]
