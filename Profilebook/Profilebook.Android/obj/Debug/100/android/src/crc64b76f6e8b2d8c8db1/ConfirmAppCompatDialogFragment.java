@@ -2,7 +2,7 @@ package crc64b76f6e8b2d8c8db1;
 
 
 public class ConfirmAppCompatDialogFragment
-	extends crc64b76f6e8b2d8c8db1.AbstractBuilderAppCompatDialogFragment_2
+	extends crc64b76f6e8b2d8c8db1.AbstractAppCompatDialogFragment_1
 	implements
 		mono.android.IGCUserPeer
 {

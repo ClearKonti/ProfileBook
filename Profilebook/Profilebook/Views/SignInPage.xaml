@@ -13,12 +13,14 @@
                 </Grid.RowDefinitions>
                 
                 <Entry x:Name="LoginEntry" 
+                       Text="{Binding SignInLogin}"
                    
                    Grid.Row="0"
                    VerticalOptions="Center"
                    Placeholder="Login"/>
 
                 <Entry x:Name="PasswordEntry" 
+                       Text="{Binding SignInPassword}"
                    
                        Grid.Row="1"
                    Placeholder="Password"/>
@@ -31,6 +33,7 @@
                 </Grid.RowDefinitions>
 
                 <Button x:Name="SignInButton"
+                        Command="{Binding SignInButtonCommand}"
                     Text="Sign in"
                     FontSize="16"
                         

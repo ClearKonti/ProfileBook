@@ -16,5 +16,12 @@ namespace Profilebook.Views
         {
             InitializeComponent();
         }
+
+        private void SignInButton_Clicked(object sender, EventArgs e)
+        {
+            //var myquery = App.UsersDatabase.
+
+
+        }
     }
 }

@@ -28,3 +28,4 @@ C:\ProfileBook2\Profilebook\Profilebook\obj\Debug\netstandard2.0\XamlC.stamp
 C:\ProfileBook2\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.dll
 C:\ProfileBook2\Profilebook\Profilebook\obj\Debug\netstandard2.0\ref\Profilebook.dll
 C:\ProfileBook2\Profilebook\Profilebook\obj\Debug\netstandard2.0\Profilebook.pdb
+C:\ProfileBook2\Profilebook\Profilebook\obj\Debug\netstandard2.0\Views\MainList.xaml.g.cs

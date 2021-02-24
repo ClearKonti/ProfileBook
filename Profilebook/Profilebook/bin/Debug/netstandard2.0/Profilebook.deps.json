@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Profilebook/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.475",
           "NETStandard.Library": "2.0.3",
           "Plugin.UserDialogs": "1.0.0",
           "Prism.Unity.Forms": "8.0.0.1909",
@@ -20,18 +21,11 @@
           "Profilebook.dll": {}
         }
       },
-      "Acr.UserDialogs/6.2.4": {
-        "dependencies": {
-          "Splat": "1.6.2"
-        },
+      "Acr.UserDialogs/7.1.0.475": {
         "runtime": {
-          "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.Interface.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/portable-win+net45+wp8+win8+wpa81/Acr.UserDialogs.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "7.1.0.475",
+            "fileVersion": "7.1.0.475"
           }
         }
       },
@@ -43,7 +37,7 @@
       },
       "Plugin.UserDialogs/1.0.0": {
         "dependencies": {
-          "Acr.UserDialogs": "6.2.4"
+          "Acr.UserDialogs": "7.1.0.475"
         }
       },
       "Prism.Core/8.0.0.1909": {
@@ -75,14 +69,6 @@
           "lib/netstandard2.0/Prism.Unity.Forms.dll": {
             "assemblyVersion": "8.0.0.1909",
             "fileVersion": "8.0.0.1909"
-          }
-        }
-      },
-      "Splat/1.6.2": {
-        "runtime": {
-          "lib/Net45/Splat.dll": {
-            "assemblyVersion": "1.6.2.0",
-            "fileVersion": "1.6.2.0"
           }
         }
       },
@@ -239,12 +225,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Acr.UserDialogs/6.2.4": {
+    "Acr.UserDialogs/7.1.0.475": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1+jHH75Jb2pWlA6ZmCyYOZMz/7XUqD0cvl9diyjwWdLdvWtz1G3rnlhX/0ScFd7ogf0bENyQOknpCshUHFtbXQ==",
-      "path": "acr.userdialogs/6.2.4",
-      "hashPath": "acr.userdialogs.6.2.4.nupkg.sha512"
+      "sha512": "sha512-iGW0uda9bmbGcPABm0UzDjSd5DtGwcTCkOg265aUxKhG9IW0HtoNA3gASMXK64hMye2A+9mfkcmWJDOudbhJWw==",
+      "path": "acr.userdialogs/7.1.0.475",
+      "hashPath": "acr.userdialogs.7.1.0.475.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -287,13 +273,6 @@
       "sha512": "sha512-a5Ls9QaF4gx9bYjvQlZLXS5VgQURXJF+/kufDyKS/cXKsia9Dc3tkkB8hIPMDYzGOfdGUOYae7yH1irnkMUkVw==",
       "path": "prism.unity.forms/8.0.0.1909",
       "hashPath": "prism.unity.forms.8.0.0.1909.nupkg.sha512"
-    },
-    "Splat/1.6.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DeH0MxPU+D4JchkIDPYG4vUT+hsWs9S41cFle0/4K5EJMXWurx5DzAkj2366DfK14/XKNhsu6tCl4dZXJ3CD4w==",
-      "path": "splat/1.6.2",
-      "hashPath": "splat.1.6.2.nupkg.sha512"
     },
     "sqlite-net-pcl/1.7.335": {
       "type": "package",

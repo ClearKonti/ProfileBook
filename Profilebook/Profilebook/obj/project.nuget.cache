@@ -1,17 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QdzkEjxSwm/kBYb8YQubQu9W416qhZ1osvO2Y8yzgiy0REUkKKq+eWUKo+0xNVS+74pEgnpBvxXmTDNitYzfGg==",
+  "dgSpecHash": "7Bjkv/J/nmbkh4xa5vzN8+1i5bDU1FeaEeJtum3qT2TXS6hHFkDPW+mtPNwgOPytySqL5oV9K9XujGXMuhBSIw==",
   "success": true,
-  "projectFilePath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
+  "projectFilePath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\6.2.4\\acr.userdialogs.6.2.4.nupkg.sha512",
+    "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\plugin.userdialogs\\1.0.0\\plugin.userdialogs.1.0.0.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\prism.forms\\8.0.0.1909\\prism.forms.8.0.0.1909.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\prism.unity.forms\\8.0.0.1909\\prism.unity.forms.8.0.0.1909.nupkg.sha512",
-    "C:\\Users\\Lera\\.nuget\\packages\\splat\\1.6.2\\splat.1.6.2.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -27,26 +26,5 @@
     "C:\\Users\\Lera\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Acr.UserDialogs 6.2.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Acr.UserDialogs",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Splat 1.6.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Splat",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

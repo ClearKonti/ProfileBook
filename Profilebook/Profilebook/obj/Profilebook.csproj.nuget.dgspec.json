@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj": {}
+    "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj": {}
   },
   "projects": {
-    "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj": {
+    "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
+        "projectUniqueName": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
         "projectName": "Profilebook",
-        "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
+        "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
         "packagesPath": "C:\\Users\\Lera\\.nuget\\packages\\",
-        "outputPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\obj\\",
+        "outputPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.475, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
