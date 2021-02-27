@@ -3,13 +3,24 @@ using Prism.Navigation;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Profilebook.Tables;
+using Prism.Commands;
+using Profilebook.Services.SettingsManager;
+using System.ComponentModel;
 
 namespace Profilebook.ViewModels
 {
-    public class SignInPageViewModel : BindableBase
+    public class SignInPageViewModel : BindableBase, INavigatedAware
     {
 
-        #region --- Fields ---
+        private ISettingsManager _settingsManager;
+        public SignInPageViewModel(ISettingsManager settingsManager)
+        {
+            _settingsManager = settingsManager;
+            IsAuthorised = _settingsManager.IsAuthorised;
+        }
+
+
+        #region --- Public properties ---
 
         private string _signInLogin;
         public string SignInLogin
@@ -18,6 +29,7 @@ namespace Profilebook.ViewModels
             set => SetProperty(ref _signInLogin, value);
         }
 
+
         private string _signInPassword;
         public string SignInPassword
         {
@@ -25,9 +37,27 @@ namespace Profilebook.ViewModels
             set => SetProperty(ref _signInPassword, value);
         }
 
+
+        private bool _isAuthorised;
+        public bool IsAuthorised
+        {
+            get => _isAuthorised;
+            set => SetProperty(ref _isAuthorised, value);
+        }
+
+
+        public bool IsEnabled { get; private set; }
+
+        public ICommand SignUpHyperlinkCommand => new Command(SignUpHyperlink);
+
+        private DelegateCommand _signInButtonCommand;
+        public DelegateCommand SignInButtonCommand =>
+            _signInButtonCommand ??
+            (_signInButtonCommand = new DelegateCommand(SignInButton)).ObservesCanExecute(() => IsEnabled);
+
         #endregion
 
-        #region --- NavigationService --- 
+        #region --- Services --- 
 
         INavigationService _navigationService;
         public SignInPageViewModel(INavigationService navigationService)
@@ -35,11 +65,30 @@ namespace Profilebook.ViewModels
             _navigationService = navigationService;
         }
 
+        public void OnNavigatedFrom(INavigationParameters parameters)
+        {
+            
+        }
+
+        public void OnNavigatedTo(INavigationParameters parameters)
+        {
+            SignInLogin = parameters["LoginParameter"].ToString();
+        }
         #endregion
 
-        
-        public ICommand SignUpHyperlinkCommand => new Command(SignUpHyperlink);
-        public ICommand SignInButtonCommand => new Command(SignInButton);
+        #region --- Overrides ---
+        protected override void OnPropertyChanged(PropertyChangedEventArgs args)
+        {
+            base.OnPropertyChanged(args);
+
+            if (args.PropertyName == nameof(IsAuthorised))
+            {
+                _settingsManager.IsAuthorised = IsAuthorised;
+            }
+        }
+
+        #endregion
+
 
         async void SignUpHyperlink()
         {
@@ -62,14 +111,18 @@ namespace Profilebook.ViewModels
 
                 if (IsUserAuthorised)
                 {
-                    await _navigationService.NavigateAsync("MainList");
+                    IsAuthorised = true;
+                    await _navigationService.NavigateAsync(new System.Uri("http://www.Profilebook/NavigationPage/MainList", System.UriKind.Absolute));
                 }
 
                 else
                 {
                     Acr.UserDialogs.UserDialogs.Instance.Alert("Invalid password");
+                    SignInPassword = "";
                 }
             }
         }
+
+        
     }
 }

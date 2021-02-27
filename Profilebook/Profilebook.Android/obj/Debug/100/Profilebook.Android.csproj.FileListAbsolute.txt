@@ -612,3 +612,5 @@ C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\android\src\androi
 C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\android\src\androidhud\ProgressWheel_SpinHandler.java
 C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\android\src\crc6439b217bab7914f95\ActionSheetListAdapter.java
 C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\android\src\crc64692a67b1ffd85ce9\ActivityLifecycleCallbacks.java
+C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\res\drawable\ic_exit_to_app.png
+C:\ProfileBook2\Profilebook\Profilebook.Android\obj\Debug\100\res\drawable\ic_settings.png

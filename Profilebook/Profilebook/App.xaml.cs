@@ -1,6 +1,7 @@
 ﻿using Acr.UserDialogs;
 using Prism.Ioc;
 using Prism.Unity;
+using Profilebook.Services.SettingsManager;
 using Profilebook.Tables;
 using Profilebook.ViewModels;
 using Profilebook.Views;
@@ -15,6 +16,8 @@ namespace Profilebook
         public App()
         {
         }
+
+        //private ISettingsManager _settingsManager;
 
         public static UsersRepository usersDatabase;
         public static UsersRepository UsersDatabase
@@ -32,15 +35,23 @@ namespace Profilebook
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterInstance<ISettingsManager>(Container.Resolve<SettingsManager>());
+
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<SignInPage, SignInPageViewModel>();
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
-            containerRegistry.RegisterForNavigation<MainList>();
+            containerRegistry.RegisterForNavigation<MainList, MainListViewModel>();
         }
        
         protected override async void OnInitialized()
         {
             InitializeComponent();
+
+           //if(_settingsManager.IsAuthorised == true)
+           // {
+           //     await NavigationService.NavigateAsync(new System.Uri("http://www.Profilebook/NavigationPage/MainList", System.UriKind.Absolute));
+           // }
 
             await NavigationService.NavigateAsync("SignInPage");
         }

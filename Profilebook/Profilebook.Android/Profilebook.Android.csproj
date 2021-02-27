@@ -99,13 +99,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\ic_settings.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Profilebook\Profilebook.csproj">
       <Project>{AD0F7566-2EB1-4373-B1BF-CFB7D77B1B0D}</Project>
       <Name>Profilebook</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_exit_to_app.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
