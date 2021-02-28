@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwsiFfqpIisqMFssXMWyOdvs4Tu26XFcDhCvh8k3nSCy02iYHpt1HuOMqyc6mIaYwB32zm1Sl8D0gNWBUwTX6Q==",
+  "dgSpecHash": "hUbK+O8AZrrWBU/L0Uh0KCrSfbHbDT7fJwf6sFnoFNKskVz4MS+NGLDw+AFbAqC7KCTRlDUe9w7JWn2ccqcBAA==",
   "success": true,
-  "projectFilePath": "C:\\ProfileBook2\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
+  "projectFilePath": "C:\\ProfileBook\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",

@@ -2070,11 +2070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProfileBook2\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
+      "projectUniqueName": "C:\\ProfileBook\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
       "projectName": "Profilebook.iOS",
-      "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
+      "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
       "packagesPath": "C:\\Users\\Lera\\.nuget\\packages\\",
-      "outputPath": "C:\\ProfileBook2\\Profilebook\\Profilebook.iOS\\obj\\",
+      "outputPath": "C:\\ProfileBook\\Profilebook\\Profilebook.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2095,8 +2095,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj": {
-              "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj"
+            "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj": {
+              "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj"
             }
           }
         }

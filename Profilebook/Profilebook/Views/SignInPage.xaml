@@ -5,12 +5,7 @@
              x:Class="Profilebook.Views.SignInPage"
              Title="User sign in">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Example Item"
-                 IconImageSource="example_icon.png"
-                 Order="Primary"
-                 Priority="0"/>
-    </ContentPage.ToolbarItems>
+    
     
     <ContentPage.Resources>
         <ResourceDictionary>

@@ -1130,11 +1130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
+      "projectUniqueName": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
       "projectName": "Profilebook",
-      "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
+      "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
       "packagesPath": "C:\\Users\\Lera\\.nuget\\packages\\",
-      "outputPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\obj\\",
+      "outputPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

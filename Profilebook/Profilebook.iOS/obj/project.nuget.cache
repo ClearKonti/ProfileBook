@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1UFoc5JOpLnjURy/tppq/s7OJM4zrnr2nDSslo+WU4DVj+fsWTLL6BzMdr1oYO3W1wJLUNnhHE2jlz/h+bHi/Q==",
+  "dgSpecHash": "xHq7oB1pO8NvVYIKQwEEMTE/9hCvR6Xm25D2iNTrsPYNS0LX7MnkACMQA+jMaElWkcBGIHgUgMiyL9dgrYwzHw==",
   "success": true,
-  "projectFilePath": "C:\\ProfileBook2\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
+  "projectFilePath": "C:\\ProfileBook\\Profilebook\\Profilebook.iOS\\Profilebook.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",

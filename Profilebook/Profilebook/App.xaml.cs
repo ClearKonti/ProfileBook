@@ -1,6 +1,7 @@
 ﻿using Acr.UserDialogs;
 using Prism.Ioc;
 using Prism.Unity;
+using Profilebook.Services.Repository;
 using Profilebook.Services.SettingsManager;
 using Profilebook.Tables;
 using Profilebook.ViewModels;
@@ -36,24 +37,27 @@ namespace Profilebook
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterInstance<ISettingsManager>(Container.Resolve<SettingsManager>());
-
+            containerRegistry.RegisterInstance<IRepository>(Container.Resolve<Repository>());
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<SignInPage, SignInPageViewModel>();
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
             containerRegistry.RegisterForNavigation<MainList, MainListViewModel>();
+            containerRegistry.RegisterForNavigation<AddEditProfile, AddEditProfileViewModel>();
         }
        
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-           //if(_settingsManager.IsAuthorised == true)
-           // {
-           //     await NavigationService.NavigateAsync(new System.Uri("http://www.Profilebook/NavigationPage/MainList", System.UriKind.Absolute));
-           // }
+            //if(_settingsManager.IsAuthorised == true)
+            // {
+            //     await NavigationService.NavigateAsync(new System.Uri("http://www.Profilebook/NavigationPage/MainList", System.UriKind.Absolute));
+            // }
 
-            await NavigationService.NavigateAsync("SignInPage");
+            await NavigationService.NavigateAsync(new System.Uri("http://www.Profilebook/SignInPage", System.UriKind.Absolute));
+            //await NavigationService.NavigateAsync(new System.Uri("http://www.Profilebook/NavigationPage/MainList", System.UriKind.Absolute));
+
         }
         protected override void OnStart()
         {

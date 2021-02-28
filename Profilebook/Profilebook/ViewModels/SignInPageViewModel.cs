@@ -12,13 +12,13 @@ namespace Profilebook.ViewModels
     public class SignInPageViewModel : BindableBase, INavigatedAware
     {
 
-        private ISettingsManager _settingsManager;
-        public SignInPageViewModel(ISettingsManager settingsManager)
+        
+        public SignInPageViewModel(ISettingsManager settingsManager, INavigationService navigationService)
         {
+            _navigationService = navigationService;
             _settingsManager = settingsManager;
             IsAuthorised = _settingsManager.IsAuthorised;
         }
-
 
         #region --- Public properties ---
 
@@ -59,11 +59,8 @@ namespace Profilebook.ViewModels
 
         #region --- Services --- 
 
+        private ISettingsManager _settingsManager;
         INavigationService _navigationService;
-        public SignInPageViewModel(INavigationService navigationService)
-        {
-            _navigationService = navigationService;
-        }
 
         public void OnNavigatedFrom(INavigationParameters parameters)
         {
@@ -72,8 +69,9 @@ namespace Profilebook.ViewModels
 
         public void OnNavigatedTo(INavigationParameters parameters)
         {
-            SignInLogin = parameters["LoginParameter"].ToString();
+            SignInLogin = (string)parameters["LoginParameter"];
         }
+
         #endregion
 
         #region --- Overrides ---
@@ -89,13 +87,13 @@ namespace Profilebook.ViewModels
 
         #endregion
 
-
-        async void SignUpHyperlink()
+        #region --- Private Helpers ---
+        private async void SignUpHyperlink()
         {
             await _navigationService.NavigateAsync("SignUpPage");
         }
 
-        async void SignInButton()
+        private async void SignInButton()
         {
 
             var IsUsernameTaken = App.UsersDatabase.UsernameCheck(SignInLogin);
@@ -123,6 +121,6 @@ namespace Profilebook.ViewModels
             }
         }
 
-        
+        #endregion
     }
 }

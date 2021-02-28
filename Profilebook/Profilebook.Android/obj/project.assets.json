@@ -2700,11 +2700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProfileBook2\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
+      "projectUniqueName": "C:\\ProfileBook\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
       "projectName": "Profilebook.Android",
-      "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
+      "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook.Android\\Profilebook.Android.csproj",
       "packagesPath": "C:\\Users\\Lera\\.nuget\\packages\\",
-      "outputPath": "C:\\ProfileBook2\\Profilebook\\Profilebook.Android\\obj\\",
+      "outputPath": "C:\\ProfileBook\\Profilebook\\Profilebook.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2725,8 +2725,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj": {
-              "projectPath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj"
+            "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj": {
+              "projectPath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj"
             }
           }
         }

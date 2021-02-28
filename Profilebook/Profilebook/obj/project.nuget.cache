@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Bjkv/J/nmbkh4xa5vzN8+1i5bDU1FeaEeJtum3qT2TXS6hHFkDPW+mtPNwgOPytySqL5oV9K9XujGXMuhBSIw==",
+  "dgSpecHash": "TryHMcabFOzqKoEdgmwjbb16AxFv/8qvWpkwoB4QpHDwjVa11l7lcbLU+JmnYVKNBWgW51Vm68wc+T9isQ0uRg==",
   "success": true,
-  "projectFilePath": "C:\\ProfileBook2\\Profilebook\\Profilebook\\Profilebook.csproj",
+  "projectFilePath": "C:\\ProfileBook\\Profilebook\\Profilebook\\Profilebook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lera\\.nuget\\packages\\acr.userdialogs\\7.1.0.475\\acr.userdialogs.7.1.0.475.nupkg.sha512",
     "C:\\Users\\Lera\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
